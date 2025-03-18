@@ -2,13 +2,23 @@
 
 ## Deadline: Wednesday, March 19, 2025, 9:59 PM
 
-## Objectives
+## Objectives:
 - Understand and get familiar with the hash table data structure and its applications.
 - Solve recurrence relations using repeated substitution and the Master Theorem.
 - Implement and analyze radix sort.
 - Implement double hashing for collision resolution in a hash table.
 - Develop a program to check word pattern matching.
 - Analyze the time and space complexity of implemented algorithms.
+  
+---
+
+## Instructions:
+
+- Problems marked as **(code)** require Java programs.
+- Problems marked as **(text)** require written answers in prose, algorithms (pseudo-code or code), proofs, or mathematical equations.
+- **Algorithm-based answers** (pseudo-code or code) will be assessed based on logic rather than compilation.
+
+---
 
 ## Repository Structure
 ```
@@ -90,6 +100,6 @@ java -cp .:out:junit-4.13.2.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore
 - If the repository is empty or inaccessible, the submission will be marked as a **zero**.
 
 ---
-**Author:** Jayden Cruz
-**Course:** CSC 3130 - Introduction to Algorithms
+**Author:** Jayden Cruz\
+**Course:** CSC 3130 - Introduction to Algorithms\
 **University:** Belmont University
