@@ -44,30 +44,57 @@
 ### 1. Recurrence (Text)
 - Solve the given recurrence relation using repeated substitution.
 - Apply the Master Method to derive the solution.
+- Show each step of the substitution process clearly.
 
 ### 2. Master Theorem (Text)
-- Apply the Master Method to five different recurrence relations and justify results.
+- Apply the Master Method to five different recurrence relations.
+- Justify the results using case analysis.
+- Explain why each recurrence fits into a specific case.
 
 ### 3. Radix Sort (Text)
 - Show step-by-step sorting of a given list using lexicographical order.
+- Illustrate each step with an example input.
 
 ### 4. Double Hashing (Text)
 - Implement a hash table with double hashing collision resolution.
 - Show step-by-step insertion, collision handling, and rehashing.
+- Include an explanation of how the secondary hash function is chosen.
 
 ### 5. Radix Sort (Code)
 - Implement radix sort for lexicographically sorting an array of strings.
+- Ensure correct handling of lowercase letters.
 - Extend support for uppercase letters (Extra Credit).
 
 ### 6. Word Pattern (Code)
 - Implement a function to check if a string follows a pattern with a given delimiter.
+- Use a hash map for efficient pattern matching.
+- Support different delimiters.
 
 ### 7. Algorithm Analysis (Text)
 - Analyze the time and space complexity of implemented algorithms.
+- Provide worst-case, best-case, and average-case complexity where applicable.
+- Discuss trade-offs in terms of memory usage and performance.
 
 ### 8. Extra Credit: Subarray Sum (Code)
 - Implement a function to find a contiguous subarray that sums to a target value.
 - Optimize to achieve O(n) time complexity and O(1) space complexity.
+- Use a sliding window or prefix sum approach.
+
+## Grading Rubric
+| Task                          | Points |
+|-------------------------------|--------|
+| Recurrence (Text)             | 10     |
+| Master Theorem (Text)         | 10     |
+| Radix Sort (Text)             | 10     |
+| Double Hashing (Text)         | 10     |
+| Radix Sort (Code)             | 15     |
+| Word Pattern (Code)           | 15     |
+| Algorithm Analysis (Text)     | 10     |
+| Extra Credit: Subarray Sum    | 10     |
+| Code Clarity & Comments       | 10     |
+| **Total**                     | **100** |
+
+---
 
 ## Compilation and Execution
 ### Compiling the Java Files
