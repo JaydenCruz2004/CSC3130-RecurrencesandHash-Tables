@@ -8,19 +8,24 @@ public class RadixSort {
             return;
         }
 
+        int maxLen = getMaxStringLength(arr);
+
+        for (int i = maxLen - 1; i >= 0; i--) {
+            countSort(arr, i);
+        }
+    }
+
+    private static int getMaxStringLength(String[] arr) {
         int maxLen = 0;
         for (String s : arr) {
             if (s.length() > maxLen) {
                 maxLen = s.length();
             }
         }
-
-        for (int i = maxLen - 1; i >= 0; i--) {
-            CountingSort(arr, i);
-        }
+        return maxLen;
     }
 
-    private static void CountingSort(String[] arr, int index) {
+    private static void countSort(String[] arr, int index) {
         List<String>[] buckets = new ArrayList[256];
         for (int i = 0; i < 256; i++) {
             buckets[i] = new ArrayList<>();
