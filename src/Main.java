@@ -52,5 +52,5 @@ public class Main {
         System.out.println(Arrays.toString(SubarraySum.sumTarget(new int[]{1, 2, 3, 7, 5}, 5)));
         System.out.println(Arrays.toString(SubarraySum.sumTarget(new int[]{1, 2, 3, 7, 5}, 7)));
         System.out.println(Arrays.toString(SubarraySum.sumTarget(new int[]{1, 2, 3, 7, 5}, 11)));
-        }
     }
+}
