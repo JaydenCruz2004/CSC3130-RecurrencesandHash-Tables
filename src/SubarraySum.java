@@ -11,7 +11,6 @@ public class SubarraySum {
         int currentSum = 0;
         int start = 0;
 
-
         for (int end = 0; end < A.length; end++) {
 
             currentSum += A[end];
