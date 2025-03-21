@@ -31,12 +31,7 @@
 │   │   │   ├── DoubleHashing.java # Implementation of Double Hashing
 │   │   │   ├── SubarraySum.java # Extra Credit: Subarray Sum
 │   │   ├── 📂 resources
-│   ├── 📂 test
-│   │   ├── RadixSortTest.java   # Unit tests for Radix Sort
-│   │   ├── WordPatternTest.java # Unit tests for Word Pattern Matching
-│   │   ├── DoubleHashingTest.java # Unit tests for Double Hashing
-│   │   ├── SubarraySumTest.java # Unit tests for Extra Credit problem
-├── 📄 Assignment5.pdf  # Solutions to text-based problems
+├── 📄 CSC3130-RecurrencesandHashTables(text)problems.pdf  # Solutions to text-based problems
 ├── 📄 README.md        # This file
 ```
 
