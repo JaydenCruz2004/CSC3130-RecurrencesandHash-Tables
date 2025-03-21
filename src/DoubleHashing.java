@@ -1,5 +1,7 @@
 import java.util.Arrays;
-
+///  this code is not part of the assignment and should not be graded
+/// i used it to help me put the numbers through the 2 hashing functions
+/// : )
 public class DoubleHashing {
     private static final int M = 29; // was 13 before re sizing the tabloe
     private static final int EMPTY = -1;
